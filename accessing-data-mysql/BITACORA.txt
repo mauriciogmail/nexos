@@ -1,0 +1,152 @@
+I am a senior database developer, I have worked with stored procedures, triggers, snapshots, nested tables, external tables, synonyms, analytical functions, I have also been a database administrator. I have a certification in AWS
+
+AWS Certified Cloud PractitionerAWS Certified Cloud Practitioner
+Credly by PearsonCredly by Pearson
+Expedición jun. 2024 · Vencimiento: jun. 2026Expedición jun. 2024 · Vencimiento: jun. 2026
+ID de la credencial 8a2d7e43110e450b9542904c52d5f059
+
+Desarrollador de aplicaciones moviles con amplia experiencia en desarrollo de aplicaciones empresariales en el sector de telecomunicaciones y banca
+
+
+I can make that app, I made an app called movilone in android just like uber
+If you want to see the functionality you can check it out in the store.
+https://play.google.com/store/apps/details?id=com.movilone&hl=es
+
+www.linkedin.com/in/mauricio-gomez-9565243b
+
+Mobile application developer with extensive experience in developing business applications in the telecommunications and banking sector
+
+I developed a mobile application for Android similar to Uber called Movilone
+https://play.google.com/store/apps/details?id=com.movilone&hl=en
+
+www.linkedin.com/in/mauricio-gomez-9565243b
+
+por favor dime como creo un microservicio que utilice el metodo GET para consultar una 
+
+http://localhost:3000/posts
+
+
+http://localhost:8090/cliente?tipoDocumento=C&numeroDocumento=23445322
+
+
+https://www.geeksforgeeks.org/spring-resttemplate/
+
+
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:3000/posts": Connection refused: connect
+
+
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:3000": Connection refused: connect
+
+
+https://www.eclipse.org/community/eclipse_newsletter/2018/february/springboot.php
+
+
+
+
+	    // Setup CCS client and create local SQLite database and tables if needed
+	    ccsClient.connect(userName, password);
+	    ConnectionSource connectionSource = new JdbcConnectionSource(databaseURL);
+	    userDao = DaoManager.createDao(connectionSource, User.class);
+	    notificationDao = DaoManager.createDao(connectionSource, NotificationKey.class);
+	    TableUtils.createTableIfNotExists(connectionSource, NotificationKey.class);
+		
+		
+		
+			 		conn = DriverManager.getConnection(
+					"jdbc:oracle:thin:@localhost:1521/XE", "IPM",
+					"5917");
+
+	
+
+			conn = DriverManager.getConnection(
+					"jdbc:oracle:thin:@192.168.1.5:1521/XE", "IPM",
+					"5917");
+
+
+
+
+https://spring.io/guides/gs/rest-service#initial
+
+
+spring Accessing data with Oracle XE
+
+
+Con Oracle 
+
+https://www.codejava.net/frameworks/spring-boot/connect-to-oracle-database-examples
+
+
+MySQL
+
+https://spring.io/guides/gs/accessing-data-mysql
+
+
+					localhost:8090/demo/add?name=mao&email=someemail@someemailprovider.com
+					
+					
+docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
+					
+
+
+
+docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
+
+
+
+
+
+
+
+docker run --rm -p 3306:3306 --name guide-mysql -e MYSQL_ROOT_PASSWORD=verysecret -d mysql:latest
+
+docker run --rm -p 3306:3306 -e MYSQL_ROOT_PASSWORD=verysecret mysql:latest
+
+mysql en Docker
+
+https://www.google.com/search?q=mysql+en+docker&oq=mysql+en+do&gs_lcrp=EgZjaHJvbWUqCAgBEAAYFhgeMgYIABBFGDkyCAgBEAAYFhgeMggIAhAAGBYYHjIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjIICAYQABgWGB4yCAgHEAAYFhgeMggICBAAGBYYHjIICAkQABgWGB7SAQk3MzQyajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:7b6cb804,vid:GshKBAnOcCU,st:0
+
+
+docker exec -it guide-mysql mysql -u root -p'verysecret' 
+
+docker exec -it upbeat_volhard mysql -u root -p'verysecret'
+
+mysql -u root -p
+
+
+CREATE DATABASE mydatabase;
+
+USE mydatabase;
+
+CREATE TABLE User (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	name VARCHAR(50),
+	email VARCHAR(50)
+); 
+
+INSERT INTO user (name, email) VALUES ('mauricio', 'uncorreo@gmail.com');
+
+
+Postman
+
+https://web.postman.co/workspace/98687233-407f-47ea-8db9-5da6c4a4c1ae/request/create?requestId=44b166f6-2754-4666-8e23-31728baf4bb9
+
+
+Docker
+https://hub.docker.com/_/mysql
+
+
+localhost:8090/demo/all
+
+
+Hibernate: select u1_0.id,u1_0.email,u1_0.name from user u1_0
+
+
+ERROR[0;39m [35m11124[0;39m [2m---[0;39m [2m[accessing-data-mysql] [nio-8090-exec-1][0;39m [2m[0;39m[36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: Name for argument of type [java.lang.String] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.] with root cause
+
+ERROR [accessing-data-mysql] [nio-8090-exec-1] [dispatcherServlet]   Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: Name for argument of type [java.lang.String] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.] with root cause
+
+
+
+
+ERROR 14068 accessing-data-mysql
+
